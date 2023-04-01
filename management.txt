@@ -1,0 +1,34 @@
+SwinTransformer-COCO/
+├── data/
+│   ├── coco/
+│   │   ├── annotations/
+│   │   ├── train2017/
+│   │   ├── val2017/
+│   │   ├── test2017/
+│   │   └── ...
+│   └── ...
+├── models/
+│   ├── SwinTransformer.py
+│   └── ...
+├── data_processing/
+│   ├── coco.py
+│   ├── transforms.py
+│   └── ...
+├── train/
+│   ├── train.py
+│   ├── train_utils.py
+│   └── ...
+├── test/
+│   ├── test.py
+│   ├── test_utils.py
+│   └── ...
+├── results/
+│   ├── experiment_1/
+│   │   ├── checkpoints/
+│   │   ├── logs/
+│   │   ├── predictions/
+│   │   ├── evaluation/
+│   │   └── ...
+│   └── ...
+├── README.md
+└── requirements.txt
